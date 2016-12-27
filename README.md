@@ -1,5 +1,6 @@
 # NoSymbols-Python
 A script to remove all symbols within a file
+Development Environment: Windows 10, Python Version 3.6.0
 
 HOW-TO:
 
