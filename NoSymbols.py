@@ -11,8 +11,7 @@ outputFile = open("outputFile.txt","w")#the new file that we will write to
 contents=file.read()#contents is a list with all the lines
 file.close()
 
-outputContents = re.sub('[-!$%^&*()_+|~=`{}\[\]:";\'<>?,.\/]','', contents)
-
+outputContents = re.sub('[-!$%^&*()_+|~=`{}\[\]:";\'<>?,.\/]','', contents)# replace all the symbols with an empty character
 
 #output the new string to a new file
 outputFile.write(outputContents);
