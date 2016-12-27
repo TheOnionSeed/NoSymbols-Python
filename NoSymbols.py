@@ -1,7 +1,7 @@
 #This program reads in a file
 #and remove all symbols within a file and 
 #output the new data to a new file
-#Created by: Tri Do
+#Created by: TheOnionSeed-Tri Do
 import re
 
 file = open("origFile.txt", "r")#change origDictionary.txt with an old file
