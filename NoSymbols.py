@@ -4,8 +4,8 @@
 #Created by: TheOnionSeed-Tri Do
 import re
 
-file = open("origDictionary.txt", "r")#change origDictionary.txt with an old file
-outputFile = open("dictionary.txt","w")#the new file that we will write to
+file = open("origFile.txt", "r")#change origDictionary.txt with an old file
+outputFile = open("outputFile.txt","w")#the new file that we will write to
 
 #read the original file by getting each line
 contents=file.readlines()#contents is a list with all the lines
